@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Total",
+    "description": "Extensão para somar uma coluna vsts",
+    "author": "Guilherme rodrigues souza",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": true
+      },
+    "browser_action": {
+        "default_title": "sum Original Estimate"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+      ]
+}
